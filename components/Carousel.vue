@@ -15,7 +15,7 @@
     >
       <!-- Текстовые слайды с изображением -->
       <b-carousel-slide
-        img-src="https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/3vayRyacdz61Gg"
+        img-src="https://www.dropbox.com/s/fy85bfoh8hdl0ik/DJI_0517.jpg?dl=1"
       ></b-carousel-slide>
 
       <!-- Слайды с произвольным текстом -->
