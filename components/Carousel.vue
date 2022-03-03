@@ -19,12 +19,12 @@
       ></b-carousel-slide>
 
       <!-- Слайды с произвольным текстом -->
-      <b-carousel-slide img-src="https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/hTBtncx561IhUA">
+      <b-carousel-slide img-src="https://www.dropbox.com/s/auz0wit6pw33t5h/DJI_0979.jpg?dl=1">
         <!--h1>Привет мир!</h1-->
       </b-carousel-slide>
 
       <!-- Слайды только с изображением -->
-      <b-carousel-slide img-src="https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/1k8JVrKdOyl_3Q"></b-carousel-slide>
+      <b-carousel-slide img-src="https://www.dropbox.com/s/rijr7lts1toqimc/DJI_0017.jpg?dl=1"></b-carousel-slide>
 
       <!-- Слайды со слотом img -->
       <!-- Обратите внимание на классы .d-block и .img-fluid, чтобы предотвратить выравнивание изображений по умолчанию в браузере -->
@@ -34,7 +34,7 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/UGYzyrkPEKrsOg"
+            src="https://www.dropbox.com/s/2fdergbq4kry5v5/DJI_0856.jpg?dl=1"
             alt="слот изображения"
           >
         </template>
