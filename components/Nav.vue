@@ -9,6 +9,7 @@
       <b-collapse id="navbar-toggle-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-item to="offer">Услуги</b-nav-item>
+          <b-nav-item to="contracts">Договора</b-nav-item>
           <b-nav-item to="registration">Свидетельство о регистрации</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
