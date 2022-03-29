@@ -69,6 +69,9 @@ var items = [
 ]
 
 export default {
+  head: {
+    title: 'Наши объекты',
+  },
   name: 'ContractsPage',
   
   data: function() {

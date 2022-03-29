@@ -23,6 +23,9 @@
 
 <script>
 export default {
+  head: {
+    title: 'Мы предлагаем',
+  },
   name: 'OfferPage'
 }
 </script>

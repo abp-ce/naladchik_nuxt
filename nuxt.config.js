@@ -8,8 +8,8 @@ export default {
   */
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Энергоинжиниринг',
-    titleTemplate: '%s - naladchik02.ru',
+    title: 'naladchik02.ru',
+    titleTemplate: '%s - Энергоинжиниринг',
     htmlAttrs: {
       lang: 'ru'
     },
@@ -19,12 +19,18 @@ export default {
       { 
         hid: 'description', 
         name: 'description', 
-        content: 'Пуско-наладочные работы в области энергетики и автоматизации энергообъектов' 
+        content: 'Пуско-наладочные работы в области энергетики и автоматизации энергообъектов.' 
       },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/android-chrome-192x192.png' },
+      { rel: 'icon', type: 'image/png', sizes: '512x512', href: '/android-chrome-512x512.png' },
+      { rel: 'manifest', href: '/site.webmanifest' }
     ]
   },
 

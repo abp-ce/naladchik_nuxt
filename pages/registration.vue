@@ -6,6 +6,9 @@
 
 <script>
 export default {
+  head: {
+    title: 'Свидетельство о регистрации',
+  },
   name: 'RegistrationPage'
 }
 </script>
