@@ -8,6 +8,13 @@
 export default {
   head: {
     title: 'Свидетельство о регистрации',
+    meta: [
+      {
+        hid: 'reg_description',
+        name: 'description',
+        content: 'Нормативный документ о регистрации предприятия.'
+      }
+    ],
   },
   name: 'RegistrationPage'
 }

@@ -71,6 +71,13 @@ var items = [
 export default {
   head: {
     title: 'Наши объекты',
+    meta: [
+      {
+        hid: 'contracts_description',
+        name: 'description',
+        content: 'Объекты, на которых мы работали.'
+      }
+    ],
   },
   name: 'ContractsPage',
   

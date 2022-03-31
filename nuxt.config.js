@@ -26,10 +26,10 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
-      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
-      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
-      { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/android-chrome-192x192.png' },
-      { rel: 'icon', type: 'image/png', sizes: '512x512', href: '/android-chrome-512x512.png' },
+      // { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+      // { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+      // { rel: 'icon', type: 'image/png', sizes: '120x120', href: '/favicon-120x120.png' },
+      { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
       { rel: 'manifest', href: '/site.webmanifest' }
     ]
   },

@@ -25,6 +25,13 @@
 export default {
   head: {
     title: 'Мы предлагаем',
+    meta: [
+      {
+        hid: 'offer_description',
+        name: 'description',
+        content: 'Пуско-наладочные работы, выполняемые нами. Перечень.'
+      }
+    ],
   },
   name: 'OfferPage'
 }
