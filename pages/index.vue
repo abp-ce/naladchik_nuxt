@@ -11,7 +11,7 @@ export default {
     title: 'Кто мы',
     meta: [
       {
-        hid: 'home_description',
+        hid: 'description',
         name: 'description',
         content: 'Пуско-наладочные работы в области энергетики и автоматизации энергообъектов.'
       }

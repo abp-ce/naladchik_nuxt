@@ -10,7 +10,7 @@ export default {
     title: 'Свидетельство о регистрации',
     meta: [
       {
-        hid: 'reg_description',
+        hid: 'description',
         name: 'description',
         content: 'Нормативный документ о регистрации предприятия.'
       }

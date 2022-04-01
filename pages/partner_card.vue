@@ -10,7 +10,7 @@ export default {
     title: 'Карта партнёра',
     meta: [
       {
-        hid: 'card_description',
+        hid: 'description',
         name: 'description',
         content: 'Контакты и реквизиты для успешного сотрудничества.'
       }

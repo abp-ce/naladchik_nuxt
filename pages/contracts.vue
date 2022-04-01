@@ -73,7 +73,7 @@ export default {
     title: 'Наши объекты',
     meta: [
       {
-        hid: 'contracts_description',
+        hid: 'description',
         name: 'description',
         content: 'Объекты, на которых мы работали.'
       }

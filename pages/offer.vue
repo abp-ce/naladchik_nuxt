@@ -27,7 +27,7 @@ export default {
     title: 'Мы предлагаем',
     meta: [
       {
-        hid: 'offer_description',
+        hid: 'description',
         name: 'description',
         content: 'Пуско-наладочные работы, выполняемые нами. Перечень.'
       }
