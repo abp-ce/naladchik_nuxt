@@ -34,7 +34,7 @@ export default {
       let len = pages.length 
       this.currentIndex += 1
       if (this.currentIndex == len) this.currentIndex = 0
-      this.$router.push(pages[this.currentIndex])
+      this.$router.push({ path: pages[this.currentIndex], replace: true })
     }
   }
 }
