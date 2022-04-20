@@ -5,3 +5,9 @@
     <Footer/>
   </b-container>
 </template>
+
+<script>
+export default {
+  name: 'DefaultLayout'
+}
+</script>

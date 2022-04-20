@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div @touchmove="touchMove">
     <b-navbar variant="faded" type="light" toggleable="lg">
       <b-navbar-brand to="/" tag="h1" class="mb-0">
         <img src="EI_icon.png" width="5%" alt="Энергоинжиниринг">
@@ -22,6 +22,20 @@
 
 <script>
 export default {
-  name: 'Nav'
+  name: 'Nav',
+  data() {
+    return {
+      currentIndex: 0
+    }
+  },
+  methods: {
+    touchMove: function() {
+      let pages = ['/', 'offer', 'contracts', 'partner_card', 'registration']
+      let len = pages.length 
+      this.currentIndex += 1
+      if (this.currentIndex == len) this.currentIndex = 0
+      this.$router.push(pages[this.currentIndex])
+    }
+  }
 }
 </script>
