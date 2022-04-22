@@ -18,7 +18,7 @@ export default {
       mc.on('swipeleft', this.swipeLeft)
       mc.on('swiperight', this.swipeRight)
     },
-    swipeLeft: function(ev) {
+    swipeRight: function(ev) {
       // ev.srcEvent.stopPropagation()
       // console.log(ev)
       let len = this.pages.length 
@@ -27,7 +27,7 @@ export default {
       // console.log(this.currentIndex)
       this.$router.push({ path: this.pages[this.currentIndex], replace: true })
     },
-    swipeRight: function(ev) {
+    swipeLeft: function(ev) {
       // ev.srcEvent.stopPropagation()
       // console.log(ev)
       let len = this.pages.length 
