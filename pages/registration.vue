@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div ref="registration">
     <b-embed src="registration.pdf"></b-embed>
   </div>
 </template>
@@ -16,6 +16,10 @@ export default {
       }
     ],
   },
-  name: 'RegistrationPage'
+  name: 'RegistrationPage',
+  mounted: function() {
+    this.initHammer(this.$refs.registration)
+  }
+
 }
 </script>

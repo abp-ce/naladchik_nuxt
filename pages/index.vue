@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div ref="index">
     <About/>
     <Carousel/>
   </div>
@@ -17,6 +17,9 @@ export default {
       }
     ],
   },
-  name: 'IndexPage'
+  name: 'IndexPage',
+  mounted: function() {
+    this.initHammer(this.$refs.index)
+  }
 }
 </script>

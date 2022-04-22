@@ -7,7 +7,12 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import pan from '~/plugins/pan.js'
+
+Vue.mixin(pan)
+
 export default {
-  name: 'DefaultLayout'
+  name: 'DefaultLayout',
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <b-card title="Услуги" sub-title="оказываем:">
+  <b-card ref="offer" title="Услуги" sub-title="оказываем:">
     <b-list-group>
       <b-list-group-item>Анализ исполнительной, проектной, конструкторской и рабочей документации</b-list-group-item>
       <b-list-group-item>Локальный сметный расчет на все виды работ в области энергетики</b-list-group-item>
@@ -33,6 +33,9 @@ export default {
       }
     ],
   },
-  name: 'OfferPage'
+  name: 'OfferPage',
+  mounted: function() {
+    this.initHammer(this.$refs.offer)
+  }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div ref="contracts">
     <b-card-group columns>
       <b-card v-for="item in items" :key="item.key"
         :img-src="item.photo"
@@ -85,6 +85,9 @@ export default {
     return {
       items: items
     }
+  },
+  mounted: function() {
+    this.initHammer(this.$refs.contracts)
   }
 }
 </script>

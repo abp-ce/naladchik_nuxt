@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div ref="partner_card">
     <b-embed src="partner_card.pdf"></b-embed>
   </div>
 </template>
@@ -16,6 +16,10 @@ export default {
       }
     ],
   },
-  name: 'PartnerCardPage'
+  name: 'PartnerCardPage',
+    mounted: function() {
+    this.initHammer(this.$refs.partner_card)
+  }
+
 }
 </script>
