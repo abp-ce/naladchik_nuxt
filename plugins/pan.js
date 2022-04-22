@@ -13,13 +13,13 @@ export default {
   methods: {
     initHammer: function(ref) {
       var mc = new Hammer.Manager(ref)
-      // mc.options.domEvents=true;
+      mc.options.domEvents=true;
       mc.add(new Hammer.Swipe({ direction: Hammer.DIRECTION_HORIZONTAL, /*threshold: 50, pointers: Hammer.POINTER_TOUCH*/}))
       mc.on('swipeleft', this.swipeLeft)
       mc.on('swiperight', this.swipeRight)
     },
     swipeRight: function(ev) {
-      // ev.srcEvent.stopPropagation()
+      ev.srcEvent.stopPropagation()
       // console.log(ev)
       let len = this.pages.length 
       this.currentIndex += 1
@@ -28,7 +28,7 @@ export default {
       this.$router.push({ path: this.pages[this.currentIndex], replace: true })
     },
     swipeLeft: function(ev) {
-      // ev.srcEvent.stopPropagation()
+      ev.srcEvent.stopPropagation()
       // console.log(ev)
       let len = this.pages.length 
       this.currentIndex -= 1
