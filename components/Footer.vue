@@ -1,5 +1,5 @@
 <template>
- <b-card>
+ <b-card ref="footer">
    <b-link href="mailto:info@naladchik02.ru">
      <b-icon icon="envelope-fill"></b-icon>
      Напишите нам
@@ -10,6 +10,9 @@
 
 <script>
   export default {
-    name: 'Footer'
+    name: 'Footer',
+    mounted: function() {
+      this.initHammer(this.$refs.footer)
+    }
   }
 </script>
